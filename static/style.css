@@ -1,0 +1,20 @@
+.dropbutton{
+    color: black;
+    padding: 5px;
+    font-size: 15px;
+    border: none;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown_content{
+    display: none;
+    position: absolute;
+    background-color: gray;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown:hover .dropdown_content{display: block;}
